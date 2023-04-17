@@ -7,7 +7,7 @@ export const store = reactive({
   fetchCards(apiToFetch) {
     axios
       .get(apiToFetch)
-      .then((Response) => {
+      .then((response) => {
         console.log(response.data);
       })
       .catch((error) => {
