@@ -14,7 +14,7 @@ export default {
   },
   mounted() {
     store.fetchCards(store.apiUrl);
-    this.store.fetchCards(this.store.apiUrl)
+
   },
 }
 </script>
